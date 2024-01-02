@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".api2">
+
+    <Button
+        android:id="@+id/btnGetData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:layout_centerInParent="true"
+        android:onClick="btn_OnClick" />
+
+    <Button
+        android:id="@+id/backkk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="back"
+
+        android:layout_marginTop="20dp"
+        android:onClick="back" />
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log_out"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="70dp"
+        android:onClick="logout" />
+
+    <ListView
+        android:id="@+id/lstTodos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnGetData"
+        android:layout_marginTop="16dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+
+</RelativeLayout>

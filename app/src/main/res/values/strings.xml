@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ASsii2</string>
+    <string name="username_hint">usernameField</string>
+    <string name="password_hint">pas</string>
+    <string name="login_button">log</string>
+    <string name="register_button">reg</string>
+    <string name="back_button">back\n\n</string>
+</resources>
